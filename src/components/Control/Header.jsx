@@ -1,5 +1,10 @@
 import React from 'react';
 
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <div>
+      <h1>Grocery Tracker</h1>
+      <p>Login/Sign up</p>
+    </div>
+  );
 }
